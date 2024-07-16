@@ -1,0 +1,77 @@
+.nav{
+ overflow: hidden;
+ padding: 15px 15px;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 60px 60px;
+   
+}
+.button{
+  width: 20%;
+  text-align: center;
+  margin: 20px;
+  padding: 10px 10px;
+  border: 3xp outset seagreen;
+  border-radius: 9px;
+  background-color: springgreen;
+}
+.landimg{
+  background-image: url("../images/me.png");
+  background-size: cover;
+  height: 650px;
+  border-radius: 8PX;
+}
+.landtxt{
+   color: beige;
+   font-size: 30px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   position: absolute;
+}
+.header{
+  color: white; 
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 40%;
+  top: 70%;
+  font-weight: bold;
+}
+.paragraph{
+  font-size: 30px;
+  font-weight: bolder;
+  color: rgb(77, 216, 34);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.abtbackground{
+  background-image: url("../images/landscapes.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 710px;
+}
+.separate{
+  margin: 5px;
+}
+.sklbackground{
+  background-image: url("../images/work.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+.ctbackground{
+  background-image: url("../images/qm.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.flexcontainer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
